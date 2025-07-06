@@ -1,4 +1,4 @@
-name: Auto Merge Owner PR
+name: Auto Merge Owner PR1
 
 on:
   pull_request:
