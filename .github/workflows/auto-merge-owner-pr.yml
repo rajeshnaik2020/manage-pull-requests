@@ -28,6 +28,8 @@ jobs:
     if: github.actor == 'automate6500' || github.actor == 'octocat' ||  github.actor == 'rajeshnaik2020'
     needs: [lint]
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
     steps:
     
     - uses: actions/checkout@v1
